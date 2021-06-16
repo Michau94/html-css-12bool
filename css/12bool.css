@@ -1,0 +1,190 @@
+/** RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/** CONTAINERS */
+
+.container {
+    max-width: 1070px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 100%;
+    width: 100%;
+}
+
+/** ROW */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-grow: 1;
+}
+
+[class*="col"] {
+    flex-grow: 0;
+    flex-wrap: 0;
+    flex-basis: auto;
+}
+
+/** GRID SYSTEM */
+
+.col-12 {
+    width: calc(100% /12 * 12);
+    max-width: calc(100% /12 * 12);
+}
+
+.col-11 {
+    width: calc(100% /12 * 11);
+    max-width: calc(100% /12 * 11);
+}
+
+.col-10 {
+    width: calc(100% /12 * 10);
+    max-width: calc(100% /12 * 10);
+}
+
+.col-9 {
+    width: calc(100% /12 * 9);
+    max-width: calc(100% /12 * 9);
+}
+
+.col-8 {
+    width: calc(100% /12 * 8);
+    max-width: calc(100% /12 * 8);
+}
+
+.col-7 {
+    width: calc(100% /12 * 7);
+    max-width: calc(100% /12 * 7);
+}
+
+.col-6 {
+    width: calc(100% /12 * 6);
+    max-width: calc(100% /12 * 6);
+}
+
+.col-5 {
+    width: calc(100% /12 * 5);
+    max-width: calc(100% /12 * 5);
+}
+
+.col-4 {
+    width: calc(100% /12 * 4);
+    max-width: calc(100% /12 * 4);
+}
+
+.col-3 {
+    width: calc(100% /12 * 3);
+    max-width: calc(100% /12 * 3);
+}
+
+.col-2 {
+    width: calc(100% /12 * 2);
+    max-width: calc(100% /12 * 2);
+}
+
+.col-1 {
+    width: calc(100% /12 * 1);
+    max-width: calc(100% /12 * 1);
+}
+
+/**OFFSET */
+
+.col-offset-12 {
+    margin-left: calc(100% /12 * 12);
+}
+
+.col-offset-11 {
+    margin-left: calc(100% /12 * 11);
+}
+
+.col-offset-10 {
+    margin-left: calc(100% /12 * 10);
+}
+
+.col-offset-9 {
+    margin-left: calc(100% /12 * 9);
+}
+
+.col-offset-8 {
+    margin-left: calc(100% /12 * 8);
+}
+
+.col-offset-7 {
+    margin-left: calc(100% /12 * 7);
+}
+
+.col-offset-6 {
+    margin-left: calc(100% /12 * 6);
+}
+
+.col-offset-5 {
+    margin-left: calc(100% /12 * 5);
+}
+
+.col-offset-4 {
+    margin-left: calc(100% /12 * 4);
+}
+
+.col-offset-3 {
+    margin-left: calc(100% /12 * 3);
+}
+
+.col-offset-2 {
+    margin-left: calc(100% /12 * 2);
+}
+
+.col-offset-1 {
+    margin-left: calc(100% /12 * 1);
+}
+
+.col-offset-0 {
+    margin-left: 0;
+}
+
+/** JUSTIFY CONTENT */
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+/**ALIGN ITEMS */
+
+.a-start {
+    justify-content: flex-start;
+}
+
+.a-center {
+    justify-content: center;
+}
+
+.a-end {
+    justify-content: flex-end;
+}
