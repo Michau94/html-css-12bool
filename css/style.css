@@ -1,0 +1,24 @@
+.container{
+    border: 1px solid blue;
+}
+
+[class*='col']{
+    border: 1px solid black; 
+    min-height: 100px;
+}
+
+/**UTILS */
+
+[class*='col']{
+    line-height: 100px;
+    text-align: center;
+}
+
+.bg-red{
+    background-color: lightcoral;
+}
+
+.bg-lightred{
+    background-color: rosybrown;
+}
+
